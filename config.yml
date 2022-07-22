@@ -1,4 +1,11 @@
 baseURL: https://distributedbits.io
 languageCode: en-us
 title: Distributed Bits
-theme: PaperMod
+theme: ["PaperMod", "plausible-hugo"]
+params:
+  plausible:
+    enable: true
+    domain: distributedbits.io
+    selfhosted_domain: analytics.surajt.com
+
+
